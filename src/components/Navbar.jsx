@@ -8,10 +8,10 @@ function Navbar() {
     <div>
         <nav>
             <ul>
-                <li className='nav-item' ><Link to="/my-portfolio/">Pramod Patil</Link></li>
-                <li className='nav-item'><Link to="/my-portfolio/">Home</Link></li>
-                <li className='nav-item'><Link to="/my-portfolio/qualification">Qualification</Link></li>
-                <li className='nav-item'><Link to="/my-portfolio/contact">Contact</Link></li>
+                <li className='nav-item' ><Link to="/">Pramod Patil</Link></li>
+                <li className='nav-item'><Link to="/">Home</Link></li>
+                <li className='nav-item'><Link to="/qualification">Qualification</Link></li>
+                <li className='nav-item'><Link to="/contact">Contact</Link></li>
                 {/* <li className='nav-item'><a href="/about">About</a></li> */}
             </ul>
         </nav>

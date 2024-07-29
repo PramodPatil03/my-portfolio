@@ -22,9 +22,9 @@ function Home() {
             <hr className='hr' />
             <div className='mainBody remaining'>
                 <ul>
-                    <li className='nav-item2'> <Link to="/my-portfolio/hireme">Hire me</Link></li>
+                    <li className='nav-item2'> <Link to="/hireme">Hire me</Link></li>
                     {/* <li className='nav-item2'> <a href="/resume">Resume</a> </li> */}
-                    <li className='nav-item2'> <Link to="/my-portfolio/projects">Projects</Link> </li>
+                    <li className='nav-item2'> <Link to="/projects">Projects</Link> </li>
                 </ul>
             </div>
  
