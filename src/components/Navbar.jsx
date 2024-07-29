@@ -7,10 +7,10 @@ function Navbar() {
     <div>
         <nav>
             <ul>
-                <li className='nav-item' ><a href="/">Pramod Patil</a></li>
-                <li className='nav-item'><a href="/">Home</a></li>
-                <li className='nav-item'><a href="/qualification">Qualification</a></li>
-                <li className='nav-item'><a href="/contact">Contact</a></li>
+                <li className='nav-item' ><a href="/my-portfolio/">Pramod Patil</a></li>
+                <li className='nav-item'><a href="/my-portfolio/">Home</a></li>
+                <li className='nav-item'><a href="/my-portfolio/qualification">Qualification</a></li>
+                <li className='nav-item'><a href="/my-portfolio/contact">Contact</a></li>
                 {/* <li className='nav-item'><a href="/about">About</a></li> */}
             </ul>
         </nav>

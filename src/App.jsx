@@ -20,15 +20,15 @@ function App() {
       <HashRouter>
       <Navbar/>
         <Routes>
-          <Route exact path='/' element = {<Home/>}/>
-          <Route exact path='/home' element = {<Home/>}/>
-          <Route exact path='/about' element = {<About/>}/>
-          <Route exact path='/qualification' element = {<Education/>}/>
-          <Route exact path='/contact' element = {<Contact/>}/>
+          <Route exact path='/my-portfolio/' element = {<Home/>}/>
+          <Route exact path='/my-portfolio/home' element = {<Home/>}/>
+          <Route exact path='/my-portfolio/about' element = {<About/>}/>
+          <Route exact path='/my-portfolio/qualification' element = {<Education/>}/>
+          <Route exact path='/my-portfolio/contact' element = {<Contact/>}/>
 
-          <Route exact path='/hireme'   element = {<Hireme/>}/>
-          <Route exact path='/resume' element = {<Resume/>} />
-          <Route exact path='/projects' element = {<Projects/>}/>
+          <Route exact path='/my-portfolio/hireme'   element = {<Hireme/>}/>
+          {/* <Route exact path='/my-portfolio/resume' element = {<Resume/>} /> */}
+          <Route exact path='/my-portfolio/projects' element = {<Projects/>}/>
         </Routes>
       <Footer/>
       </HashRouter>
