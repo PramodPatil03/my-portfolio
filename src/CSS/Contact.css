@@ -1,0 +1,47 @@
+
+.name{
+    text-align: center  ;
+}
+
+.number{
+    font-size: 20px;
+    text-align: center;
+}
+
+#email{
+    display: block;
+}
+.contactContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contactContainer span{
+    line-height: 40px;
+}
+
+.number{
+    margin: 20px auto;
+    display: flex;
+    width: 45%;
+    background-color: rgb(210, 124, 250);
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.lable{
+    background-color: rgb(210, 124, 250);
+}
+
+.hidden{
+    /* display: inline-block; */
+    font-size: 18px;
+    display: none;
+    background-color: rgb(210, 124, 250);
+
+}
+
+.number:hover  .hidden{
+    display: contents ;
+}
