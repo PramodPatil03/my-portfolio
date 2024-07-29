@@ -30,7 +30,7 @@ function Projects() {
             <h2>EMS</h2>
           </div>
           <div className="projectabout">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat esse harum, voluptatibus excepturi voluptatem neque ex aut, voluptate cupiditate, corporis voluptatum dolorem ab nisi quaerat et possimus commodi eum unde earum. Harum laborum tenetur deleniti molestias quasi aperiam tempora! Eum numquam totam eligendi iste atque assumenda aut similique voluptates aliquam. Ducimus officiis aspernatur, corporis harum ipsam facere, nostrum neque quibusdam voluptate praesentium iste natus perspiciatis numquam itaque voluptatum sit animi eaque aperiam suscipit cumque sint non? Tempora, doloremque. Doloribus sit sed cumque distinctio ab nihil ipsum quo modi nisi vel!
+            Employee Management System (EMS) is our engineering mini-project which we had developed using HTML,CSS, Javascript, PHP and MySQL. <br />This project was a prototype to demonstrate how employee Management can be done easily with the help of EMS. EMS was mainly intended to demonstrate how Database Management System (DBMS) works in real time application.
           </div>
           <div className='imageHolder'>
             <div className="image"><img src={ems} alt="" /></div>
@@ -44,7 +44,7 @@ function Projects() {
             <h2>You Vote</h2>
           </div>
           <div className="projectabout">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quaerat id esse nemo unde ea laborum cumque sint quis perspiciatis tempore dolor fugit, ipsa consequatur blanditiis sit totam dicta officia eligendi quas qui minima aut. Enim reiciendis esse cumque aspernatur unde ea quasi deleniti dignissimos atque tenetur, incidunt minima magni.
+            You Vote was an offline voting app prototype which was developed as our Engineering mini-project. This app was built using Java and XML as markup language. We used Android studio for building this app and java as backend language. This app was kept offline to prevent any cyber attact that may happen if it was connected to network. This mini-project got third rank in our college level project competition.
           </div>
           <div className='imageHolder'>
             <div className="image vote"><img src={vote} alt="" /></div>
@@ -59,7 +59,7 @@ function Projects() {
             <h2>RECNS</h2>
           </div>
           <div className="projectabout">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis recusandae ipsa sequi minima sapiente doloribus quos temporibus repudiandae! Provident, vero similique quaerat adipisci impedit dolorem, architecto ad error quasi repudiandae, cumque voluptatibus. Suscipit beatae maxime in, recusandae commodi nam, numquam nihil eaque aperiam sunt, dolores libero reprehenderit modi quidem possimus.
+            In today's digital world almost everyone makes use of cloud services, Among that cloud storage is a widely used service among the users. If there is storage there will be Redundancy. Our project was mainly focused on elimination of the redundancy in the cloud network storage, improving the capacity, higher performance and cost effectiveness as every single bit cause some amount of money to the cloud users. This app was built using netbeans, Java, Cloud simulator package and MySQL. This project has got 2nd rank in college level project competition and got selected for IISc bangalore's KSCST exhibition earning a reward amount of 5000 rs.
           </div>
           <div className='imageHolder'>
             <div className="image"><img src={rc} alt="" /></div>
