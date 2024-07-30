@@ -9,7 +9,7 @@ function Contact() {
       <div className='name'><p>Pramod Patil</p></div>
       <div className='contactContainer'>
         <div className='number'>
-          <span className="lable"><a href="tel:+918970627081"></a>Mobile Number<span className="hidden">{': '}+91 8970627081</span></span>
+          <span className="lable"><a href="tel:+918970627081">Mobile Number<span className="hidden">{': '}+91 8970627081</span></a></span>
           
         </div>
         <div className='number'>
