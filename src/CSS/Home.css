@@ -89,7 +89,7 @@ li {
 
 .nav-item2 {
     width: 25%;
-    padding: 2px 20px;
+    /* padding: 2px 20px; */
     background-color: #134b70;
     line-height: 30px;
     margin: auto 0;
@@ -243,7 +243,7 @@ li {
     .nav-item2 {
         width: 50%;
         margin: 10px auto;
-        padding: 2px 20px;
+        /* padding: 2px 20px; */
         background-color: #134b70;
         line-height: 30px;
         border-radius: 10px;
