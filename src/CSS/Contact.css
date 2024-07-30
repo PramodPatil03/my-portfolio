@@ -30,9 +30,13 @@
     text-align: center;
     border-radius: 20px;
 }
-
+ 
 .lable{
     background-color: #134b70;
+    color: white;
+}
+
+.lable a{
     color: white;
 }
 
@@ -52,4 +56,12 @@
 
 .number:hover  .hidden{
     display: contents ;
+}
+
+
+@media (max-width:700px) {
+    
+    .number:hover  .hidden{
+        display: none ;
+    }
 }

@@ -9,18 +9,18 @@ function Contact() {
       <div className='name'><p>Pramod Patil</p></div>
       <div className='contactContainer'>
         <div className='number'>
-          <span className="lable">Mobile Number<span className="hidden">{': '}+91 8970627081</span></span>
+          <span className="lable"><a href="tel:+918970627081"></a>Mobile Number<span className="hidden">{': '}+91 8970627081</span></span>
           
         </div>
         <div className='number'>
-          <span className="lable">Email<span className="hidden" >{': '} <a target='_blank' href={mailtoHref}>pramodpatil190203@gmail.com</a></span></span>
+          <span className="lable"><a target='_blank' href={mailtoHref}>Email<span className="hidden" >{': '} pramodpatil190203@gmail.com</span></a></span>
         </div>
         <div className='number'>
-          <span className="lable">LinkedIn <span className="hidden">{': '} <a target='_blank' href="https://www.linkedin.com/in/pramod-patil-768706282/">Pramod Patil @ LinkedIn</a></span></span>
+          <span className="lable"><a target='_blank' href="https://www.linkedin.com/in/pramod-patil-768706282/">LinkedIn<span className="hidden">{': '}Pramod Patil @ LinkedIn</span></a></span>
           
         </div>
         <div className='number'>
-          <span className="lable">GitHub<span className="hidden">{': '} <a target='_blank' href="https://github.com/PramodPatil03">Pramod Patil @ github</a> </span></span>
+          <span className="lable"><a target='_blank' href="https://github.com/PramodPatil03">GitHub<span className="hidden">{': '}Pramod Patil @ github</span></a></span>
           
         </div>
       </div>

@@ -17,9 +17,9 @@ function Navbar() {
         <nav>
             <ul className='sidebar'>
                 <li className='' onClick={hideSidebar}><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
-                <li className='nav-item '><Link to="/">Home</Link></li>
-                <li className='nav-item '><Link to="/qualification">Qualification</Link></li>
-                <li className='nav-item '><Link to="/contact">Contact</Link></li>
+                <li className='nav-item ' onClick={hideSidebar}><Link to="/">Home</Link></li>
+                <li className='nav-item ' onClick={hideSidebar}><Link to="/qualification">Qualification</Link></li>
+                <li className='nav-item ' onClick={hideSidebar}><Link to="/contact">Contact</Link></li>
                 {/* <li className='nav-item'><a href="/about">About</a></li> */}
             </ul>
             <ul>

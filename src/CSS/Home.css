@@ -87,7 +87,6 @@ li{
     line-height: 30px;
     margin:auto 0;
     border-radius: 10px;
-    color: white;
     border: 1px solid black;
     /* box-shadow: 0px 0px 10px rgb(178, 58, 233); */
     transition: 0.3s;
@@ -144,13 +143,17 @@ li{
     text-align: center;
 }
 
-
+.homeLink{
+    color: white;
+    text-decoration: none;
+}
 @media screen and (max-width:700px) {
     .mainBody{
         position: relative;
-        width: 95%;
+        /* width: 95%; */
+        width: 100%;
         padding: 10px 2.5% 10px 2.5%;
-        margin-left: 2.5%;
+        /* margin-left: 2.5%; */
         background-color: rgb(194, 192, 192);
         /* height: 9000px; */
     }
@@ -183,19 +186,26 @@ li{
         /* background-color: aqua; */
         align-items: center;
         text-align: center;
+        display: flex;
+
     }
     
     hr{
-        width: 95%;
+        /* width: 95%; */
+        width: 100%;
         height: 4px;
         position:relative;
-        margin-left: 2.5%;
+        /* margin-left: 2.5%; */
+    }
+    .innerHr{
+        width: 100%;
     }
     
     .myPic{
         /* margin: 0 auto; */
         /* position: relative; */
         width: 50%;
+        margin: 0 auto;
         border-radius: 50%;
     }
     
@@ -213,7 +223,7 @@ li{
         width: 50%;
         margin: 10px auto;
         padding: 2px 20px;
-        background-color: violet;
+        background-color: #134b70;
         line-height: 30px;
         border-radius: 10px;
         border: 1px solid black;
@@ -221,6 +231,10 @@ li{
         transition: 0.3s;
     }
     
+.homeLink{
+    color: white;
+    text-decoration: none;
+}
     .nav-item2:hover{
         transform: translate(0px, 2px);
         box-shadow: 0px -3px 10px black    ; 
@@ -229,7 +243,3 @@ li{
         
 }
 
-.homeLink{
-    color: white;
-    text-decoration: none;
-}
