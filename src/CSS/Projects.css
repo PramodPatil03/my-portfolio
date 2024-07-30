@@ -23,6 +23,8 @@ hr{
     margin: 0 auto;
 }
 
+
+
 .imageHolder{
     display: flex;
     justify-content: space-evenly;
@@ -48,5 +50,22 @@ hr{
     background-color: rgb(247, 132, 222);
     display: flex;
     margin-top: 5px;
+    height: 40px;
     justify-content: space-evenly;
+}
+.projectLink a{
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    text-align: center ;
+    line-height: 40px;
+}
+@media (max-width:700px) {
+    .projectLink a{
+        width: 100%;
+        height: 40px;
+        padding: 0;
+        text-align: center ;
+        line-height: 40px;
+    }
 }

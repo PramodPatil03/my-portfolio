@@ -34,6 +34,7 @@
 .number span{
     width: 100%;
     border-radius: 20px;
+    text-align: center;
 } 
 .lable{
     background-color: #134b70;
@@ -55,7 +56,9 @@
     }
 
 }
-
+.acontact{
+    padding: 0;
+}
 
 
 .number:hover  .hidden{
@@ -67,5 +70,8 @@
     
     .number:hover  .hidden{
         display: none ;
+    }
+    .acontact{
+        padding: 5px 25% 5px 25%;
     }
 }
