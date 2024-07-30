@@ -1,9 +1,9 @@
 .FooterBody{
-    background-color: rgb(210, 124, 250);
-    width: 95%;
+    background-color: #91DDCF;
+    width: 100%;
     margin: 0 auto;
     margin-top: auto;
-    border-radius: 0 0 20px 20px;
+    /* border-radius: 0 0 20px 20px; */
     
 }
 
