@@ -27,7 +27,7 @@ function Home() {
                     <li className='nav-item2'> <Link className='homeLink' to="/projects">Projects</Link> </li>
                 </ul>
             </div>
- 
+
         </>
     )
 }

@@ -43,3 +43,10 @@ hr{
 .vote img{
     width: 50%;
 }
+
+.projectLink{
+    background-color: rgb(247, 132, 222);
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-evenly;
+}

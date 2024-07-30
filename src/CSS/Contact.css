@@ -4,6 +4,7 @@
 }
 
 .number{
+    /* width: 100%; */
     font-size: 20px;
     text-align: center;
 }
@@ -30,7 +31,10 @@
     text-align: center;
     border-radius: 20px;
 }
- 
+.number span{
+    width: 100%;
+    border-radius: 20px;
+} 
 .lable{
     background-color: #134b70;
     color: white;

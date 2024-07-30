@@ -24,7 +24,7 @@ function Projects() {
         <div>
           <h3 id='projectHead'>Projects page</h3>
         </div>
-      <hr />
+        <hr />
         <div>
           <div className="projectName">
             <h2>EMS</h2>
@@ -37,9 +37,10 @@ function Projects() {
             <div className="image"><img src={ems2} alt="" /></div>
             <div className="image"><img src={ems3} alt="" /></div>
           </div>
+          <span className="projectLink"> <a target='_blank'  href="https://github.com/PramodPatil03/employee_mgmnt">GitHub</a></span>
         </div>
         <hr />
-        <div> 
+        <div>
           <div className="projectName">
             <h2>You Vote</h2>
           </div>
@@ -52,6 +53,8 @@ function Projects() {
             <div className="image vote"><img src={vote2} alt="" /></div>
             <div className="image vote"><img src={vote3} alt="" /></div>
           </div>
+          
+          <span className="projectLink"> <a target='_blank' href="https://github.com/PramodPatil03/you_vote">GitHub</a></span>
         </div>
         <hr />
         <div>
@@ -66,6 +69,8 @@ function Projects() {
             <div className="image"><img src={rc2} alt="" /></div>
             <div className="image"><img src={rc3} alt="" /></div>
           </div>
+          
+          <span className="projectLink"> <a target='_blank'  href="https://github.com/PramodPatil03/Data_deduplication">GitHub</a></span>
         </div>
       </div>
     </>
