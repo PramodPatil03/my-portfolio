@@ -17,19 +17,6 @@ h2{
     background-color: transparent;
 }
 
-/* #showAbout{
-    width: 50%;
-    margin: 0 auto;
-    text-align: justify;
-    position: absolute;
-    margin-left: 40%;
-    line-height: 25px;
-    padding: 20px;
-    background-color:bisque;
-    opacity: 1;
-    z-index: 1;
-    border-radius: 30px;
-} */
 
 #showAbout{
     display: none;
