@@ -5,6 +5,8 @@ import '../CSS/Home.css'
 import pramod from '../Images/pramod-2.jpeg'
 import sangu from '../Images/sangu.jpg'
 import { Link } from 'react-router-dom'
+
+import resume from '../assets/Resume-Pramod Patil-v3.pdf'
 function Home() {
     return (
         <>
@@ -24,6 +26,7 @@ function Home() {
                 <ul>
                     <li className='nav-item2'> <Link className='homeLink' to="/hireme">Hire me</Link></li>
                     {/* <li className='nav-item2'> <a href="/resume">Resume</a> </li> */}
+                    <li className='nav-item2'> <a className='homeLink' href={resume}>Resume</a> </li>
                     <li className='nav-item2'> <Link className='homeLink' to="/projects">Projects</Link> </li>
                 </ul>
             </div>
