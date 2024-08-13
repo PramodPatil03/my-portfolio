@@ -1,8 +1,8 @@
-# simplify
+# Brand Mark
 
 To run this project on localhost:
 1. Download the code from code->download zip.
-2. Extract the downloaded zip file into a known location
+2. Extract the downloaded zip file Brand_mark into a known location
 3. Open the project folder in VSCode
 4. Download the *Live Server* extension in VSCode if not downloaded
 5. a. Open the *index.html* in editor
