@@ -11,3 +11,9 @@ To run this project on localhost:
    Right click on *index.html* and select *open with live server*
 
 6. Either of the above mentioned step will open the project in your default browser
+
+
+
+To run the project remotely click on the following link
+
+[Link to the project](https://mpomkar.github.io/weather/)
