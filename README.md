@@ -1,4 +1,4 @@
-#simplify
+# simplify
 
 To run this project on localhost:
 1. Download the code from code->download zip.
